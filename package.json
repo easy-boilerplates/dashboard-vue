@@ -1,0 +1,61 @@
+{
+  "name": "dashboard-vue",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --progress --config ./webpack/app.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-boilerplates/dashboard-vue.git"
+  },
+  "author": "alreadyExisted",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easy-boilerplates/dashboard-vue/issues"
+  },
+  "homepage": "https://github.com/easy-boilerplates/dashboard-vue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@types/node": "^10.12.21",
+    "@types/webpack": "^4.4.24",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "happypack": "^5.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "normalize.css": "^8.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.1",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-svgo": "^4.0.1",
+    "prettier": "^1.16.4",
+    "prettier-tslint": "^0.4.2",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpackbar": "^3.1.5"
+  },
+  "dependencies": {
+    "vue": "^2.6.5",
+    "vue-class-component": "^6.3.2",
+    "vue-property-decorator": "^7.3.0",
+    "vue-router": "^3.0.2"
+  }
+}

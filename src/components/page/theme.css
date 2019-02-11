@@ -1,0 +1,23 @@
+.main {
+  flex: 1 0 auto;
+  padding: 2rem 0;
+}
+
+.container {
+  @mixin container;
+
+  font-size: 2rem;
+  text-align: center;
+}
+
+:global {
+  & .fade-enter-active,
+  & .fade-leave-active {
+    transition: opacity .5s;
+  }
+  
+  & .fade-enter,
+  & .fade-leave-to {
+    opacity: 0;
+  }
+}

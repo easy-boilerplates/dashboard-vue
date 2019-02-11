@@ -1,0 +1,6 @@
+@define-mixin container {
+  max-width: 102rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

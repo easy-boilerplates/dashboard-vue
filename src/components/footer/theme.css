@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 6rem;
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+  background: blue;
+}

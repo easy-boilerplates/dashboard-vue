@@ -1,0 +1,8 @@
+@define-mixin link {
+  text-decoration: none;
+  transition: all .2s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

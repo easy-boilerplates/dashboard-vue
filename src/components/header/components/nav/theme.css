@@ -1,0 +1,18 @@
+@import 'vars.css';
+
+.list {
+  @mixin list;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & li:not(:last-child) .link {
+    margin-right: 2rem;
+  }
+  
+  & .link {
+    @mixin link;
+    color: var(--secondary-color);
+  }
+}
